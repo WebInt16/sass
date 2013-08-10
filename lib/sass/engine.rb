@@ -251,6 +251,8 @@ module Sass
       @template = template
     end
 
+    attr_accessor :template, :options
+
     # Render the template to CSS.
     #
     # @return [String] The CSS
